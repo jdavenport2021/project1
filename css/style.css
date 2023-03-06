@@ -1,3 +1,7 @@
+@font-face {
+  font-family: p5font;
+  src: url(p5font/p5hatty.ttf);
+}
 /* Below is the CSS for the navigation bar found at the top of each page */
 #main-navbar {
   /*background-color: rgb(173,0,0);*/
@@ -22,6 +26,8 @@
   position: relative;
   right: 50%;
   display: block;
+  font-family: p5font;
+  font-size: x-large;
 }
 #main-navbar ul li a {
   display: block;
@@ -103,6 +109,75 @@ p.side-content {
 }
 #clear {
   clear: left;
+}
+/* Below is the CSS for the games page which is using a fluid layout */
+#games h3 {
+  position: relative;
+  left: 1%;
+  box-sizing: border-box;
+  width: 99%;
+  margin: 0;
+}
+#games p {
+  position: relative;
+  left: 3%;
+  box-sizing: border-box;
+  width: 94%;
+}
+#games #fav-games li {
+  position: relative;
+  left: 5%;
+  box-sizing: border-box;
+  width: 95%;
+}
+#games h4 {
+  position: relative;
+  left: 5%;
+  box-sizing: border-box;
+  width: 95%;
+}
+#p4g img {
+  width: 20%;
+  position: relative;
+  box-sizing: border-box;
+  left: 6%;
+  float: left;
+}
+section#p4g {
+  background-color: rgb(252,252,101);
+}
+#games #p4g p {
+  position: relative;
+  left: 8%;
+  box-sizing: border-box;
+  width: 88%;
+}
+#p5r img {
+  width: 30%;
+  position: relative;
+  box-sizing: border-box;
+  left: 6%;
+  float: left;
+}
+section#p5r {
+  background-color: #F70000;
+}
+#p5r iframe {
+  position: relative;
+  box-sizing: border-box;
+  left: 60%;
+}
+#games #p5r h4 {
+  font-family: p5font;
+  font-size: xx-large;
+}
+/* Note: using imported font "p5font" makes the following text basically unreadable */
+#games #p5r p {
+  position: relative;
+  left: 8%;
+  box-sizing: border-box;
+  width: 88%;
+  font-weight: 600;
 }
 /* Below is the font stack using browser native fonts for the resume page */
 .resume h1 {
