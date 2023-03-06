@@ -37,6 +37,7 @@
 }
 #main-navbar ul li a:hover {
   background-color: #000;
+  border-radius: 15px;
 }
 #onpage {
   text-decoration: underline;
