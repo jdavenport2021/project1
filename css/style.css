@@ -166,12 +166,12 @@ section#p5r {
   position: relative;
   box-sizing: border-box;
   left: 60%;
+  width: 20%;
 }
 #games #p5r h4 {
   font-family: p5font;
   font-size: xx-large;
 }
-/* Note: using imported font "p5font" makes the following text basically unreadable */
 #games #p5r p {
   position: relative;
   left: 8%;
