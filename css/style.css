@@ -1,3 +1,4 @@
+/* Below is the CSS for the navigation bar found at the top of each page */
 #main-navbar {
   /*background-color: rgb(173,0,0);*/
   overflow: hidden;
@@ -33,6 +34,35 @@
 }
 #onpage {
   text-decoration: underline;
+}
+/* Below is the CSS for the home page which is using a fluid layout */
+#home h3{
+  position: relative;
+  left: 1%;
+  box-sizing: border-box;
+  width: 99%;
+  margin: 0;
+}
+#home p {
+  position: relative;
+  left: 3%;
+  box-sizing: border-box;
+  width: 94%;
+}
+#bands li{
+  position: relative;
+  left: 5%;
+  box-sizing: border-box;
+  width: 95%;
+}
+#home img {
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+}
+#home section:nth-child(even) {
+  background-color: lightgrey;
 }
 /* Below is the font stack using browser native fonts for the resume page */
 .resume h1 {
