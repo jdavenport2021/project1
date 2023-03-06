@@ -88,6 +88,22 @@
   margin: 5px;
   list-style-type: square;
 }
+p.main-content {
+  float: left;
+  display: inline;
+  width: 550px;
+  margin: 2.5px 0;
+}
+p.side-content {
+  float: right;
+  display: inline;
+  width: 350px;
+  margin: 2.5px 0;
+  top: -25px;
+}
+#clear {
+  clear: left;
+}
 /* Below is the font stack using browser native fonts for the resume page */
 .resume h1 {
   font-family: Arial, 'Times New Roman';
