@@ -34,3 +34,48 @@
 #onpage {
   text-decoration: underline;
 }
+/* Below is the font stack using browser native fonts for the resume page */
+.resume h1 {
+  font-family: Arial, 'Times New Roman';
+  text-align: center;
+}
+.resume h3 {
+  font-family: Arial, 'Times New Roman';
+}
+#contact-info {
+  text-align: center;
+}
+.resume p {
+  font-family: Arial, 'Times New Roman';
+}
+.resume li {
+  font-family: Arial, 'Times New Roman';
+}
+/* Below is the font stack that most pages will use */
+h1 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+  text-align: center;
+}
+h2 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+}
+h3 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+}
+h4 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+}
+h5 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+}
+h6 {
+  font-family: Merriweather, Arial, 'Times New Roman';
+}
+p {
+  font-family: Merriweather, Arial, 'Times New Roman';
+  font-weight: 300;
+}
+li {
+  font-family: Merriweather, Arial, 'Times New Roman';
+  font-weight: 300;
+}
