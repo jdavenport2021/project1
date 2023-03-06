@@ -64,6 +64,30 @@
 #home section:nth-child(even) {
   background-color: lightgrey;
 }
+/* Below is the CSS for the resume page which is using a fixed width layout */
+.wrapper {
+  width: 900px;
+  margin: auto;
+  background-color: white;
+}
+.resume h3 {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.resume p {
+  position: relative;
+  left: 20px;
+  margin: 5px;
+}
+#contact-info {
+  text-align: center;
+  background-color: white;
+  border: none;
+}
+.resume li {
+  margin: 5px;
+  list-style-type: square;
+}
 /* Below is the font stack using browser native fonts for the resume page */
 .resume h1 {
   font-family: Arial, 'Times New Roman';
@@ -71,9 +95,6 @@
 }
 .resume h3 {
   font-family: Arial, 'Times New Roman';
-}
-#contact-info {
-  text-align: center;
 }
 .resume p {
   font-family: Arial, 'Times New Roman';
