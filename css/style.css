@@ -66,9 +66,9 @@
   }
   #home img {
     display: block;
-    margin-left: 35%;
-    margin-right: 35%;
-    width: 30%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
   }
 }
 /* Second media query is for when the window is smaller or on smaller devices like tablets or large phones */
