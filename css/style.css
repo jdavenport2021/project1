@@ -75,7 +75,7 @@
   }
 }
 /* Second media query is for when the window is smaller or on smaller devices like tablets or large phones */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
   #home h3{
     position: relative;
     left: 2%; /* Change 1, so the text isn't uncomfortably close to the left side of the screen */
