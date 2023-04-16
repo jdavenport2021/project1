@@ -76,7 +76,34 @@
 }
 /* Second media query is for when the window is smaller or on smaller devices like tablets or large phones */
 @media screen and (min-width: 800px) {
-
+  #home h3{
+    position: relative;
+    left: 2%; /* Change 1, so the text isn't uncomfortably close to the left side of the screen */
+    box-sizing: border-box;
+    width: 98%; /* Change 2, so the text isn't uncomfortably close to the right side of the screen */
+    margin: 0;
+  }
+  #home p {
+    position: relative;
+    left: 4%; /* Change 3, so the paragraph text is slightly staggered from the head and not too close to the left */
+    box-sizing: border-box;
+    width: 92%; /* Change 4, so the paragraph text isn't too close to the right side and is proportional to the left side */ 
+  }
+  #bands li{
+    position: relative;
+    left: 6%; /* Change 5, so the list is staggered from the paragraph body */
+    box-sizing: border-box;
+    width: 94%; /* Change 6, so the content box doesn't go off screen */
+  }
+  #home img {
+    display: block;
+    margin-left: 30%; /* Change 7, so the image stays centered but scales better as the size changes */
+    margin-right: 30%; /* Change 8, so the image stays centered but scales better as the size changes */
+    width: 40%; /* Change 9, so the image stays centered but scales better as the size changes */
+  }
+  #home section:nth-child(even) {
+    background-color: lightgrey;
+  }
 }
 /* Below is the CSS for the resume page which is using a fixed width layout */
 .wrapper {
