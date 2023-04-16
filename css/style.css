@@ -70,9 +70,6 @@
     margin-right: 35%;
     width: 30%;
   }
-  #home section:nth-child(even) {
-    background-color: lightgrey;
-  }
 }
 /* Second media query is for when the window is smaller or on smaller devices like tablets or large phones */
 @media screen and (min-width: 800px) and (max-width: 1200px) {
@@ -100,9 +97,6 @@
     margin-left: 30%; /* Change 7, so the image stays centered but scales better as the size changes */
     margin-right: 30%; /* Change 8, so the image stays centered but scales better as the size changes */
     width: 40%; /* Change 9, so the image stays centered but scales better as the size changes */
-  }
-  #home section:nth-child(even) {
-    background-color: lightgrey;
   }
 }
 /* Third media query is for when the window is on even smaller devices like phones in portrait mode */
@@ -132,9 +126,9 @@
     margin-right: 20%; /* Change 8, so the image stays centered but scales better as the size changes */
     width: 60%; /* Change 9, so the image stays centered but scales better as the size changes */
   }
-  #home section:nth-child(even) {
-    background-color: lightgrey;
-  }
+}
+#home section:nth-child(even) {
+  background-color: lightgrey;
 }
 /* Below is the CSS for the resume page which is using a fixed width layout */
 .wrapper {
