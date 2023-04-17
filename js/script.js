@@ -15,7 +15,7 @@ async function initMap() {
     position: myDorm,
     map,
     title: "Where I currently reside.",
-    icon: "../media/home.png",
+    icon: "https://github.com/jdavenport2021/project1/blob/project3/media/home.png?raw=true", //Changed link to point directly at github since trying to get to it locally w/ "../media/home.png" won't load on the live page for some reason
   });
 //-----------------------------------------------------------------------
   new google.maps.Marker({
