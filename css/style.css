@@ -239,6 +239,15 @@ section#p5r {
   width: 88%;
   font-weight: 600;
 }
+/* Below is the CSS for the Maps page */
+#map {
+  height: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 /* Below is the font stack using browser native fonts for the resume page */
 .resume h1 {
   font-family: Arial, 'Times New Roman';
