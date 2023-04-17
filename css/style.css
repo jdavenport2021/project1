@@ -239,6 +239,12 @@ section#p5r {
   width: 88%;
   font-weight: 600;
 }
+/* Changing sizing of slider added to the games page */
+div#slider {
+  position: relative;
+  width: 70%;
+  left: 15%;
+}
 /* Below is the CSS for the Maps page */
 #map {
   height: 100%;
