@@ -10,14 +10,30 @@ async function initMap() {
     center: myDorm,
     zoom: 16,
   });
-
+//----------------------------------------------------------------------
   new google.maps.Marker({
     position: myDorm,
     map,
     title: "Where I currently reside.",
     icon: "../media/home.png",
   });
-
+//-----------------------------------------------------------------------
+  new google.maps.Marker({
+    position: { lat: -37.81251028928746, lng: 144.9661349923577 },
+    map,
+    title: "One place I would like to live one day",
+  });
+  new google.maps.Marker({
+    position: { lat: 36.18793557483978, lng: -115.14147246551781 },
+    map,
+    title: "One place I would like to live one day",
+  });
+  new google.maps.Marker({
+    position: { lat: 37.77486766516876, lng: -122.41927191583967 },
+    map,
+    title: "One place I would like to live one day",
+  });
+//-----------------------------------------------------------------------
   const visitCoordinates = [
     myDorm,
     { lat: 32.80429969121628, lng: -96.79682607489457 },
@@ -32,6 +48,7 @@ async function initMap() {
     strokeWeight: 2,
     title: "Three places I would like to visit this summer."
   });
+//----------------------------------------------------------------------
 
   summerVisits.setMap(map);
 }
